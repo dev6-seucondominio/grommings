@@ -1,6 +1,57 @@
 # Payment
 
-## Banco' sicredi
+## Banco Santander
+
+### Código da carteira
+
+1 = ELETRÔNICA COM REGISTRO
+3 = CAUCIONADA ELETRÔNICA
+4 = COBRANÇA SEM REGISTRO
+5 = RÁPIDA COM REGISTRO - (BLOQUETE EMITIDO PELO CLIENTE)
+6 = CAUCIONADA RAPIDA
+7 = DESCONTADA ELETRÔNICA
+
+### Especie de documento
+
+1 = DUPLICATA
+2 = NOTA PROMISSÓRIA
+3 = APÓLICE / NOTA DE SEGURO
+5 = RECIBO
+6 = DUPLICATA DE SERVIÇO
+7 = LETRA DE CAMBIO
+
+### Instruções
+
+00 = NÃO HÁ INSTRUÇÕES
+02 = BAIXAR APÓS QUINZE DIAS DO VENCIMENTO
+03 = BAIXAR APÓS 30 DIAS DO VENCIMENTO
+04 = NÃO BAIXAR
+06 = PROTESTAR (VIDE POSIÇÃO392/393)
+07 = NÃO PROTESTAR
+08 = NÃO COBRAR JUROS DE MORA
+
+## Banco Sicoob
+
+### Número do contrato
+
+O que é ?
+precisa ter esse campo a mais em conta_banco.rb ?
+
+### Codigo Beneficiario
+
+Quais suas possíveis variáveis ?
+pode ser subistiuida ?
+
+### Número do bordeiro
+
+O que é ?
+precisa ter esse campo a mais em conta_banco.rb ?
+
+### Revisar instruções do Sicoob
+
+instruções de prazo ocorrencia (pagamento...)
+
+## Banco sicredi
 
 ### validar campos que não foram ainda revisados
 
