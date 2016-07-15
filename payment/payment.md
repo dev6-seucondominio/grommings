@@ -1,5 +1,11 @@
 # Payment
 
+## Pendencias
+
+* Mandar true/false para dizer se o documento beneficiario/pagado é cpf ou cnpj
+    * beneficiario_documento_cnpj = true/false
+    * pagador_documento_cnpj = true/false
+
 ## Banco Santander
 
 ### Código da carteira
