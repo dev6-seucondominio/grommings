@@ -1,29 +1,5 @@
 # Show de cobrança
 
-## Adicionar tooltip informando a frequencia de repetição
-
-```html
-  <span ng-if="cobranca.parcela"
-        class="snowrap sc-m-r-md" sc-tooltip="{{cobranca.parcelador.info}}" >
-    {{ cobranca.parcela }}/{{ cobranca.parcela_qtd || '&infin;' }} </span>
-```
-
-## Adicionar paragrafo no show para printar o Repetição
-
-file: app/assets/templates/gerenciar/cd/financeiro/cobrancas/show.html
-
-```html
-<p ng-if="!cobranca.parcela_persistida" class="sc-text-gray">
-  Repetição: <span class="sc-text-blue sc-p-l-sm">{{cobranca.parcela}}/{{cobranca.parcela_qtd || '&infin;'}} ({{cobranca.parcelador.info}})</span>
-</p>
-```
-
-## Movido o metodo parcelador do to_frontend_obj para slim_obj
-
-```
-foi nescessário pois irá mostrar no tooltip as informações da repetição
-```
-
 ## Alterações em parcelado (Repetição < Parcelamento)
 
 ### to_frontend_obj
