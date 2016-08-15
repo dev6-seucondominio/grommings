@@ -22,3 +22,21 @@
   testar com filtro
 
 [] Payment: Verificar data de retorno.
+
+[] A opção de editar a repetição irá para o menu opções da cobrança.
+  Ao escolher editar a repetição o usuário verá o modal contendo as opções de repetição.
+    Rádio *repetir cobrança?*
+      *Repetir cobrança a cada*
+      *Quantidade definida?*
+      *Quantidade de vezes*
+    Isso de acordo com o definido na primeira cobrança da série.
+
+  Ao manter em repetir cobrança e clicar em salvar o modal de decisões deve abrir onde:
+    A opção de editar somente esta deverá estar desabilitada
+    A opção de editar esta e as futuras limitará a série de cobranças e começar uma nova a partir da que esta sendo editada(pode ser emitir um alert para isso)
+    A opção de editar todas matará cobranças não persistidas e sem recebimentos e criará uma nova séria a partir dessa.
+
+  Caso o usuário defina que não irá repetir.
+    A opção de editar somente esta virá desabilitada
+    A opção de editar esta e as futuras limitará a série atual matará todas as futuras.
+    A opção de alterar todas virá desabilitada
