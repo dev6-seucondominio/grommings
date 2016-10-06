@@ -2,6 +2,10 @@
 
 * Carteiras do HSBC/Banestes/Banco do Brasil
 
+SEU CONDOMNIO LTDA - ME
+
+014.488.585/0001-45
+
 # Bancos
 
 ## Itau '341'
